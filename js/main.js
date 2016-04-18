@@ -2,6 +2,9 @@ $(document).ready(function(){
 
     $('#fullpage').fullpage({
     	scrollingSpeed: 600,
+    	slidesNavigation: true,
+        slidesNavPosition: 'bottom',
+    	verticalCentered: false,
     });
 
 });
