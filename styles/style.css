@@ -115,8 +115,7 @@ body  {
 	font-family: Baskerville;
 	font-size: 16px;
 	width: 30%;
-	margin: 0 0 4% 2%;
-	opacity: 0.2;
+	margin: 0 0 6% 6%;
 }
 .captionRight {
 	font-family: Baskerville;
@@ -124,19 +123,9 @@ body  {
 	width: 30%;
 	margin-right: 6%;
 	margin-bottom: 6%;
-
 	text-align: right;
 }
 
-.captionLeft:hover {
-	opacity:1;
-	cursor: crosshair;
-}
-
-.captionRight:hover {
-	opacity:1;
-	cursor: crosshair;
-}
 
 .captionTopRight {
 	font-family: Baskerville;
@@ -145,6 +134,23 @@ body  {
 	margin-top: 6%;
 	margin-right: 6%;
 	text-align: right;
+}
+
+.captionTopLeft {
+	font-family: Baskerville;
+	font-size: 16px;
+	width: 30%;
+	margin-top: 6%;
+	margin-left: 6%;
+	text-align: left;
+}
+
+.captionBottomCenter {
+	font-family: Baskerville;
+	font-size: 16px;
+	width: 30%;
+	margin-bottom: 6%;
+	text-align: center;
 }
 
 /* END CAPTIONS */
@@ -204,18 +210,19 @@ body  {
 
 #slide3 {
 	background-image: url(../images/01/wburgcops2.jpg);
-
 	justify-content:flex-end;
 	align-items:flex-start;
 }
 
 #slide4{
 	background-image: url(../images/01/7.jpg);
+	justify-content:flex-start;
+	align-items:flex-end;
 }
 
 #slide5{
 	background-image: url(../images/01/3.jpg);
-	justify-content:flex-start;
+	justify-content:center;
 	align-items:flex-end;
 
 }
