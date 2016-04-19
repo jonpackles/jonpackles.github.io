@@ -63,11 +63,6 @@ body  {
 	text-align: center;
 }
 
-#cover{
-	height:100vh;
-	
-}
-
 #nav {
 	position:fixed;
 	top:45%;
@@ -114,6 +109,47 @@ body  {
 	align-items:flex-end;
 }
 
+/* CAPTIONS */
+
+.captionLeft {
+	font-family: Baskerville;
+	font-size: 16px;
+	width: 30%;
+	margin: 0 0 4% 2%;
+	opacity: 0.2;
+}
+.captionRight {
+	font-family: Baskerville;
+	font-size: 16px;
+	width: 30%;
+	margin-right: 6%;
+	margin-bottom: 6%;
+
+	text-align: right;
+}
+
+.captionLeft:hover {
+	opacity:1;
+	cursor: crosshair;
+}
+
+.captionRight:hover {
+	opacity:1;
+	cursor: crosshair;
+}
+
+.captionTopRight {
+	font-family: Baskerville;
+	font-size: 16px;
+	width: 30%;
+	margin-top: 6%;
+	margin-right: 6%;
+	text-align: right;
+}
+
+/* END CAPTIONS */
+
+/* STORY ONE TITLE SLIDE */
 #storyOne .title  {
 	width:30%;
 	/*margin: 30% 0 0 10%;*/
@@ -130,59 +166,11 @@ body  {
 	margin-top: 10px;
 	font-size: 17px;
 	line-height: 18px;
-
 }
 
-#slide1 {
-	font-family: Baskerville;
-}
-#slide1{
-	background-image: url(../images/01/6.jpg)
-}
-#slide2{
-	background-image: url(../images/01/cityhallatlarge2.jpg)
-}
+/* END STORY ONE TITLE SLIDE */
 
-#slide3 {
-	background-image: url(../images/01/wburgcops2.jpg);
-}
-
-#slide4{
-	background-image: url(../images/01/7.jpg);
-}
-
-#slide5{
-	background-image: url(../images/01/3.jpg);
-	justify-content:flex-start;
-	align-items:flex-end;
-
-}
-
-#slide3 .caption {
-	font-size: 20px;
-	line-height: 21px;
-	font-family: Baskerville;
-	width: 20%;
-	margin-bottom: 6%;
-	margin-left: 12%;
-	
-}
-
-
-#slide5{
-	background-image: url(../images/01/4.jpg)
-}
-#slide6{
-	background-image: url(../images/01/4.jpg)
-}
-
-#slide1a {
-	background-image: url(../images/02/9.jpg);
-	align-items:flex-start;
-	justify-content:flex-start;
-	
-}
-
+/* STORY TWO TITLE SLIDE */
 #slide1a .title {
 	width: 30%;
 	font-family: Baskerville;
@@ -198,7 +186,50 @@ body  {
 #slide1a .title p {
 	font-size: 18px;
 }
+/* END STORY TWO TITLE SLIDE */
 
+
+/* BACKGROUND IMAGES */
+#slide1 {
+	font-family: Baskerville;
+}
+#slide1{
+	background-image: url(../images/01/6.jpg)
+}
+#slide2{
+	background-image: url(../images/01/cityhallatlarge2.jpg);
+	justify-content:flex-end;
+	align-items:flex-end;
+}
+
+#slide3 {
+	background-image: url(../images/01/wburgcops2.jpg);
+
+	justify-content:flex-end;
+	align-items:flex-start;
+}
+
+#slide4{
+	background-image: url(../images/01/7.jpg);
+}
+
+#slide5{
+	background-image: url(../images/01/3.jpg);
+	justify-content:flex-start;
+	align-items:flex-end;
+
+}
+
+#slide6{
+	background-image: url(../images/01/4.jpg)
+}
+
+#slide1a {
+	background-image: url(../images/02/9.jpg);
+	align-items:flex-start;
+	justify-content:flex-start;
+	
+}
 
 #slide2a {
 	background-image: url(../images/02/14.jpg)
@@ -222,8 +253,6 @@ body  {
 	color:#171717;
 }
 
-
-
 #slide1c {
 	display:flex;
 	align-items:center;
@@ -231,6 +260,16 @@ body  {
 	background-color: #fbf9f6;
 }
 
+#slide2c {
+	background-image: url(../images/mimi2.jpg);
+}
+
+#slide3c {
+	background-image: url(../images/mimi1.jpg)
+}
+/* END BACKGROUND IMAGES */
+
+/* STORY TWO TITLE SLIDE */
 #slide1c .title {
 	width: 40%;
 	margin-left: 15%
@@ -246,15 +285,15 @@ body  {
 	margin-right:15%;
 }
 
-#slide2c {
-	background-image: url(../images/mimi2.jpg);
-}
+/* END STORY TWO TITLE SLIDE */
 
-#slide3c {
-	background-image: url(../images/mimi1.jpg)
-}
 
+
+/* HIDE SLIDE ARROWS */
 div.fp-controlArrow { 
     display: none;
 }
+/* END HIDE SLIDE ARROWS */
+
+
 
