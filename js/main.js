@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $('#fullpage').fullpage({
-    	scrollingSpeed: 500,
+    	scrollingSpeed: 200,
     	slidesNavigation: true,
         slidesNavPosition: 'bottom',
     	verticalCentered: false,
