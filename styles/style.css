@@ -87,13 +87,24 @@ body  {
 }
 
 .slide h1 {
-	position:relative;
-	font-size: 30pt;
+	font-size: 70px;
+	line-height: 50px;
+	position: absolute;
+	bottom:100px;
+	left:100px;
+}
+
+#slide1 {
+	font-family: Baskerville;
 }
 
 #slide1{
-	background-image: url(../images/1.jpg)
+	background-image: url(../images/5.jpg)
 }
 #slide2{
 	background-image: url(../images/2.jpg)
+}
+
+div.fp-controlArrow { 
+    display: none;
 }
