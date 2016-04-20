@@ -118,6 +118,12 @@ body  {
 	margin: 0 0 6% 6%;
 	padding-top: 5px;
 	border-top:1px solid white;
+
+}
+
+.captionLeft:hover {
+	border-top:1px dotted white;
+
 }
 .captionRight {
 	font-family: Baskerville;
@@ -128,6 +134,10 @@ body  {
 	text-align: right;
 	padding-top: 5px;
 	border-top:1px solid white;
+}
+
+.captionRight:hover {
+	border-top:1px dotted white;
 }
 
 
@@ -142,6 +152,10 @@ body  {
 	border-top:1px solid white;
 }
 
+.captionTopRight:hover {
+	border-top:1px dotted white;
+}
+
 .captionTopLeft {
 	font-family: Baskerville;
 	font-size: 16px;
@@ -153,6 +167,10 @@ body  {
 	border-top:1px solid white;
 }
 
+.captionTopLeft:hover {
+	border-top:1px dotted white;
+}
+
 .captionBottomCenter {
 	font-family: Baskerville;
 	font-size: 16px;
@@ -161,6 +179,10 @@ body  {
 	text-align: center;
 	padding-top: 5px;
 	border-top:1px solid white;
+}
+
+.captionBottomCenter:hover {
+	border-top:1px dotted white;
 }
 
 /* END CAPTIONS */
